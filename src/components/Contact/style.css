@@ -1,0 +1,88 @@
+.akuna {
+    background: transparent;
+    z-index: 1;
+    position: relative;
+    padding: 0 0 16vh 0;
+    height: 100vh;
+}
+
+.contact h1 {
+    color: white;
+}
+
+.contact-title-container {
+    padding: 4vh 0;
+}
+
+.label {
+    color: white;
+    display: block;
+    width: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 60vw;
+    padding-top: 15vh;
+}
+
+.field {
+    display: flex;
+    width: 40vw;
+    margin: 3vh auto;
+}
+
+input {
+    width: 100%;
+    height: 28px;
+    margin: auto 3vw;
+    background: #F8EEE5;
+    border-radius: 2px;
+}
+
+.control {
+    width: 100%;
+}
+
+.textarea {
+    height: 60px;
+    width: 100%;
+    margin: auto 3vw;
+    background: #F8EEE5;
+    border-radius: 2px;
+
+}
+
+.submit-btn {
+    margin: 4vh 4vw 0 0;
+    background-color: white;
+    border: none;
+    color: #363638;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 300ms;
+    -webkit-transition-duration: 300ms;
+}
+
+.submit-btn:hover {
+    background-color: #363638;
+    color: white;
+    border: 1px solid white;
+}
+
+@media only screen and (max-width: 950px) {
+    .form {
+        padding-top: 0;
+    }
+
+    .field {
+        width: 60vw;
+        margin-left: 5vw;
+    }
+}

@@ -1,0 +1,104 @@
+.sidebar {
+    height: 100%;
+    width: 80%;
+    background: #363638;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    border-left: 1px solid white;
+    text-align: center;
+}
+
+.sidebar-container {
+    height: 100vh;
+    width: 30vw;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: -30%;
+    display: flex;
+    justify-content: space-between;
+    transition: transform 200ms ease-in;
+
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.languages {
+    margin-top: 4vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.languages h2 {
+    text-decoration: underline;
+    margin-bottom: 1vh;
+}
+
+.language {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 30%;
+    margin: 6vh 0 1vh 0;
+}
+
+.sidebar h3, .sidebar h2 {
+    color: white;
+}
+
+.exerpt {
+    color: white;
+    margin-top: 1vh;
+}
+
+.new-arrow {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    align-self: center;
+    z-index: 99999;
+    position: relative;
+}
+
+.new-arrow:hover {
+    opacity: .8;
+    cursor: pointer;
+    
+}
+
+.hide {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 550px) {
+    .new-arrow {
+        width: 15px;
+        height: 15px;
+        margin-right: 2vw;
+    }
+}
+
+
+@media only screen and (max-width: 950px) {
+    .email {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}

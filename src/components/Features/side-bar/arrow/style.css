@@ -1,0 +1,55 @@
+.arrow {
+    position: fixed;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    width: 40px;
+    height: 40px;
+    transform: rotate(-45deg);
+    top: 50vh;
+    right: 6vw;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+.arrow:hover {
+    opacity: .6;
+}
+
+.arrow-header {
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 200000;
+    top: 52vh;
+    right: 0vw;
+    display: none;
+    font-size: 13px;
+
+}
+
+.prof-arrow-container {
+    border: none;
+    background: none;
+}
+/* 
+.arrow-header {
+    -webkit-transition:  5s ease;
+    transition:  5s ease;
+} */
+
+
+.arrow:hover + .arrow-header {
+    transform: translateX(-20vw);
+    transition: 5s;
+    -webkit-transition: 5s;
+    display: block;
+}
+
+@media only screen and (max-width: 1050px) {
+    .arrow-header {
+        font-size: 8px;
+        top: 52.5vh;
+        right: 1vw;
+    }
+}

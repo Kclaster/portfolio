@@ -1,0 +1,17 @@
+.progress-bar-container {
+    height: 20px;
+    width: 80%;
+    background: grey;
+    opacity: .6;
+    position: relative;
+    z-index: 4;
+
+}
+
+.progress-bar {
+    background: black;
+    color: white;
+    height: 100%;
+    position: relative;
+    z-index: 5;
+}

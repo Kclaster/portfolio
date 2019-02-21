@@ -1,0 +1,6 @@
+export const SHOW_SIDEBAR = 'SHOW_SIDEBAR';
+export const HIDE_SIDEBAR = 'HIDE_SIDEBAR';
+export const ADD_TO_PARAGRAPH = 'ADD_TO_PARAGRAPH';
+export const RESET_PARAGRAPH = 'RESET_PARAGRAPH';
+export const ITERATOR = 'ITERATOR';
+export const RESET_ITERATOR = 'RESET_ITERATOR';
