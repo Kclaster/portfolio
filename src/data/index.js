@@ -68,14 +68,17 @@ export const javascriptProjects = {
   ]
 };
 
-export const reactProfessionalWork = {
-  app: {
-    name: 'BackGround Weddings',
-    description:
-      'BackGround Weddings is an up and coming wedding planning business located in NW Arkansas.',
-    github: 'https://github.com/Kclaster/background_wedding',
-    url: 'https://intense-scrubland-29810.herokuapp.com/'
-  }
+export const nodeProjects = {
+  app: [
+    {
+      id: 0,
+      name: 'Liri',
+      description:
+        "Liri is a small node app that get's specific data from 3 api's upon command.",
+      github: 'https://github.com/Kclaster/liri-node-app',
+      language: 'node'
+    }
+  ]
 };
 
 export const introduction =

@@ -1,215 +1,208 @@
-
-
 .miniscroller {
-    width: 100vw;
-    overflow: hidden;
-    height: 494px;
+  width: 100vw;
+  overflow: hidden;
+  height: 433px;
+  text-align: center;
 }
 
 .cards-slider-wrapper {
-    display: flex;
-    transition: transform 300ms ease-in;
-    width: 80vw;
-    margin: 0 3vw;
-    height: 100%;
+  display: flex;
+  transition: transform 300ms ease-in;
+  width: 80vw;
+  margin: 0 3vw;
+  height: 100%;
 }
 
 .card {
-    flex: 1;
-    opacity: 0.5;
-    transform: scale(0.8);
-    transition: opacity 300ms linear;     transition: transform 300ms ease-in;
+  flex: 1;
+  opacity: 0.5;
+  transform: scale(0.8);
+  transition: opacity 300ms linear;
+  transition: transform 300ms ease-in;
 }
 
 .snippet-container {
-    background: #363638;
-    display: flex;
-    padding-left: -5vw;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    padding: 1vh 1vw;
-    box-shadow: 5px 7px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+  background: #363638;
+  display: flex;
+  padding-left: -5vw;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 20vw;
+  padding: 1vh 1vw;
+  box-shadow: 5px 7px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
 
 .snippet-image {
-    width: 100%;
-    border: 1px solid #363638;
+  width: 100%;
+  border: 1px solid #363638;
 }
 
 .snippet-header {
-    margin: 1vh 1vw;
-    color: white;
+  margin: 1vh 1vw;
+  color: white;
 }
 
 .snippet-description {
-    color: white;
+  color: white;
 }
 
 .hover {
-    background: transparent;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    height: 100%;
-    top: 0;
+  background: transparent;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 20vw;
+  height: 100%;
+  top: 0;
 }
 
 .hover:hover {
-    background: white;
-    opacity: .85;
+  background: white;
+  opacity: 0.85;
 }
 
 .hover:hover .snippet-button {
-    display: block;
+  display: block;
 }
 
 .snippet-button {
-    color: #363638;
-    display: none;
-    font-size: 22px;
-    text-decoration: none;
-    padding: 16px 24px;
-    margin: 3vh 0;
-    border: 1px solid #363638;
+  color: #363638;
+  display: none;
+  font-size: 22px;
+  text-decoration: none;
+  padding: 16px 24px;
+  margin: 3vh 0;
+  border: 1px solid #363638;
 }
 
 .snippet-button:hover {
-    color: white;
-    background: #363638;
-
+  color: white;
+  background: #363638;
 }
 
-
-.cards-slider.active-slide-0 #card-0  {
-    opacity: 1;
-    transform: scale(1);
+.cards-slider.active-slide-0 #card-0 {
+  opacity: 1;
+  transform: scale(1);
 }
 
-.cards-slider.active-slide-1 #card-1  {
-    opacity: 1;
-    transform: scale(1);
+.cards-slider.active-slide-1 #card-1 {
+  opacity: 1;
+  transform: scale(1);
 }
 
-.cards-slider.active-slide-2 #card-2  {
-    opacity: 1;
-    transform: scale(1);
+.cards-slider.active-slide-2 #card-2 {
+  opacity: 1;
+  transform: scale(1);
 }
 
-.cards-slider.active-slide-3 #card-3  {
-    opacity: 1;
-    transform: scale(1);
+.cards-slider.active-slide-3 #card-3 {
+  opacity: 1;
+  transform: scale(1);
 }
 
-.cards-slider.active-slide-4 #card-4  {
-    opacity: 1;
-    transform: scale(1);
+.cards-slider.active-slide-4 #card-4 {
+  opacity: 1;
+  transform: scale(1);
 }
 
-.cards-slider.active-slide-5 #card-5  {
-    opacity: 1;
-    transform: scale(1);
+.cards-slider.active-slide-5 #card-5 {
+  opacity: 1;
+  transform: scale(1);
 }
 
-.cards-slider.active-slide-6 #card-6  {
-    opacity: 1;
-    transform: scale(1);
+.cards-slider.active-slide-6 #card-6 {
+  opacity: 1;
+  transform: scale(1);
 }
 
-.cards-slider.active-slide-7 #card-7  {
-    opacity: 1;
-    transform: scale(1);
+.cards-slider.active-slide-7 #card-7 {
+  opacity: 1;
+  transform: scale(1);
 }
 
-.cards-slider.active-slide-8 #card-8  {
-    opacity: 1;
-    transform: scale(1);
+.cards-slider.active-slide-8 #card-8 {
+  opacity: 1;
+  transform: scale(1);
 }
 
-.cards-slider.active-slide-9 #card-9  {
-    opacity: 1;
-    transform: scale(1);
+.cards-slider.active-slide-9 #card-9 {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .cards-slider {
-    position: relative;
-    max-width: 30vw;
-    margin: 0 auto;
+  position: relative;
+  max-width: 30vw;
+  margin: 0 auto;
 }
 
 .cards-slider:after {
-    content: '';
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+  content: '';
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-
 .arrow-right {
-    position: relative;
-    top: 8px;
-    left: 8px;
-    width: 0;
-    height: 0;
-    border-top: 8px solid transparent;
-    border-bottom: 8px solid transparent;
-    border-left: 10px solid #535d63;
-    z-index: 30;
+  position: relative;
+  top: 8px;
+  left: 8px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 10px solid #535d63;
+  z-index: 30;
 }
 
 .arrow-left {
-    position: relative;
-    top: 8px;
-    left: 8px;
-    width: 0;
-    height: 0;
-    border-top: 8px solid transparent;
-    border-bottom: 8px solid transparent;
-    border-right: 10px solid #535d63;
-    z-index: 30;
+  position: relative;
+  top: 8px;
+  left: 8px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 10px solid #535d63;
+  z-index: 30;
 }
 
 .arrow-container {
-    width: 30px;
-    height: 30px;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    position: absolute;
-    top: 8vw;
-    cursor: pointer;
-    border: 1px solid #535d63;
-    z-index: 4;
-    border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #535d63;
+  z-index: 4;
+  border-radius: 5px;
+  margin: 0 3vw;
 }
 
 .arrow-container:hover {
-    background: #535d63;
+  background: #535d63;
 }
 
 .arrow-container:hover .arrow-left {
-    border-right: 10px solid white;
+  border-right: 10px solid white;
 }
 
 .arrow-container:hover .arrow-right {
-    border-left: 10px solid white;
+  border-left: 10px solid white;
 }
 
-.right {
-    right: -26vw;
-}
-
-.left {
-    left: -26vw;
+.title-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*

@@ -6,7 +6,7 @@ import reactsmall3 from '../../../pics/Diary.PNG';
 import javascriptsmall1 from '../../../pics/fight.png';
 import javascriptsmall2 from '../../../pics/word.png';
 import javascriptsmall3 from '../../../pics/cinimania.png';
-
+import nodesmall1 from '../../../pics/liri.PNG';
 import './style.css';
 
 const Snippet = props => {
@@ -21,10 +21,14 @@ const Snippet = props => {
     javascriptsmall3
   ];
 
+  const nodeImage = [nodesmall1];
+
   if (language === 'javascript') {
     picture = javascriptImage[id];
-  } else {
+  } else if (language === 'react') {
     picture = image[id];
+  } else {
+    picture = nodeImage[id];
   }
 
   return (
