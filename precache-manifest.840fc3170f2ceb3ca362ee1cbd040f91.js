@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fight.7166aac2.png"
   },
   {
-    "revision": "66adc8ad4d680cc5a1e6",
-    "url": "/portfolio/static/css/main.207c6e05.chunk.css"
+    "revision": "d14f0088cef5ce6b22e9",
+    "url": "/portfolio/static/css/main.2682704c.chunk.css"
   },
   {
     "revision": "0fad4c0f10d57b530fe4",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Diary.03d43748.PNG"
   },
   {
-    "revision": "66adc8ad4d680cc5a1e6",
-    "url": "/portfolio/static/js/main.66adc8ad.chunk.js"
+    "revision": "d14f0088cef5ce6b22e9",
+    "url": "/portfolio/static/js/main.d14f0088.chunk.js"
   },
   {
     "revision": "f524838430a69957ab856adfb639ae6b",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/my-resume.2904c0dc.pdf"
   },
   {
-    "revision": "22e9478e763a74504b733d567b581ad6",
+    "revision": "706b5379c0411b33222e1d000aa8a6c4",
     "url": "/portfolio/index.html"
   }
 ];
