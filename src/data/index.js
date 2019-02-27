@@ -13,24 +13,25 @@ export const reactProjects = {
       id: 1,
       name: 'BackGround Weddings',
       description:
-        'BackGround Weddings is an up and coming wedding planning business located in NW Arkansas.',
+        'BackGround Weddings is an up and coming wedding planning business.',
       github: 'https://github.com/Kclaster/background_wedding',
       url: 'https://kclaster.github.io/weddingPlannerSite/',
       language: 'react'
     },
     {
       id: 2,
-      name: 'Trivimania',
+      name: '58 Degrees',
       description:
-        'Trivimania is a trivia game focusing on the most important thing a man can ponder over, Lord of the Rings.',
-      github: 'https://github.com/Kclaster/background_wedding',
-      url: 'https://intense-scrubland-29810.herokuapp.com/',
+        '58 Degrees is my current project. It is a fullstack venture designed to be a storefront for the leading extreme sports shop located in Kodiak Alaska.',
+      github: 'https://github.com/Kclaster/store-front',
+      url: 'https://kclaster.github.io/store-front/',
       language: 'react'
     },
     {
       id: 3,
-      name: 'Giftastic',
-      description: 'Giftastic is a giffy API app.',
+      name: 'Trivimania',
+      description:
+        'Trivimania is a trivia game focusing on the most important thing a man can ponder over, Lord of the Rings.',
       github: 'https://github.com/Kclaster/background_wedding',
       url: 'https://intense-scrubland-29810.herokuapp.com/',
       language: 'react'

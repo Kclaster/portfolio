@@ -1,6 +1,6 @@
 import React from 'react';
 import reactprof from '../../../pics/background.png';
-import reactsmall1 from '../../../pics/gif.png';
+import reactprof2 from '../../../pics/kodiak.png';
 import reactsmall2 from '../../../pics/trivia.png';
 import reactsmall3 from '../../../pics/Diary.PNG';
 import javascriptsmall1 from '../../../pics/fight.png';
@@ -13,7 +13,7 @@ const Snippet = props => {
   let picture;
   const { id, description, name, github, url, language } = props.app;
 
-  const image = [reactsmall3, reactprof, reactsmall2, reactsmall1];
+  const image = [reactsmall3, reactprof, reactprof2, reactsmall2];
 
   const javascriptImage = [
     javascriptsmall1,
@@ -35,16 +35,18 @@ const Snippet = props => {
     <div id={`card-${id}`} className="card">
       <div className="snippet-container">
         <img className="snippet-image" src={picture} alt={name} />
-        <h3 className="snippet-header">{name}</h3>
-        <p className="snippet-description">{description}</p>
-      </div>
-      <div className="hover">
-        <a className="snippet-button 1" href={github}>
-          Visit GitHub
-        </a>
-        <a className="snippet-button 2" href={url}>
-          Visit App
-        </a>
+        <div className="description-container">
+          <h3 className="snippet-header">{name}</h3>
+          <p className="snippet-description">{description}</p>
+        </div>
+        <div className="hover">
+          <a className="snippet-button 1" href={github}>
+            Visit GitHub
+          </a>
+          <a className="snippet-button 2" href={url}>
+            Visit App
+          </a>
+        </div>
       </div>
     </div>
   );

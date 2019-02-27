@@ -8,7 +8,7 @@ class MiniScroller extends React.Component {
     super(props);
     this.state = {
       apps: props.list.app,
-      app: props.list.app[0]
+      app: props.list.app[props.start]
     };
   }
 
