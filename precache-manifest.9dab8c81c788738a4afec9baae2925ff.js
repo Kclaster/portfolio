@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fight.7166aac2.png"
   },
   {
-    "revision": "f6bf8efac13e55c3df95",
+    "revision": "a2804c883d6fd8032157",
     "url": "/portfolio/static/css/main.4246f574.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/background.6a804d28.png"
   },
   {
-    "revision": "54d6ebba6ca91c350616b09ebb998a8a",
-    "url": "/portfolio/static/media/gif.54d6ebba.png"
+    "revision": "75027ce19e01b9adf4da38e25e20339e",
+    "url": "/portfolio/static/media/kodiak.75027ce1.png"
   },
   {
     "revision": "39d063173ab55bad794594228e108a4d",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Diary.03d43748.PNG"
   },
   {
-    "revision": "f6bf8efac13e55c3df95",
-    "url": "/portfolio/static/js/main.f6bf8efa.chunk.js"
+    "revision": "a2804c883d6fd8032157",
+    "url": "/portfolio/static/js/main.a2804c88.chunk.js"
   },
   {
     "revision": "f524838430a69957ab856adfb639ae6b",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/my-resume.2904c0dc.pdf"
   },
   {
-    "revision": "6de75c981392f24ffc1a9f88c7301139",
+    "revision": "7ee75d54c945ae38de0e16c9bd7463ad",
     "url": "/portfolio/index.html"
   }
 ];
