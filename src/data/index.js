@@ -14,7 +14,7 @@ export const reactProjects = {
       name: 'BackGround Weddings',
       description:
         'BackGround Weddings is an up and coming wedding planning business.',
-      github: 'https://github.com/Kclaster/background_wedding',
+      github: 'https://github.com/Kclaster/wedding-planner',
       url: 'https://kclaster.github.io/weddingPlannerSite/',
       language: 'react'
     },
@@ -32,8 +32,8 @@ export const reactProjects = {
       name: 'Trivimania',
       description:
         'Trivimania is a trivia game focusing on the most important thing a man can ponder over, Lord of the Rings.',
-      github: 'https://github.com/Kclaster/background_wedding',
-      url: 'https://intense-scrubland-29810.herokuapp.com/',
+      github: 'https://github.com/Kclaster/TriviaGame/tree/master/trivia-game',
+      url: 'https://desolate-reef-72963.herokuapp.com/',
       language: 'react'
     }
   ]
@@ -45,16 +45,16 @@ export const javascriptProjects = {
       id: 0,
       name: 'Fight Club',
       description: 'A rooster fighting a pikachu? Why not!',
-      github: 'https://github.com/Kclaster/background_wedding',
-      url: 'https://intense-scrubland-29810.herokuapp.com/',
+      github: 'https://github.com/Kclaster/unit-4-game',
+      url: 'https://kclaster.github.io/unit-4-game/',
       language: 'javascript'
     },
     {
       id: 1,
       name: 'Word Guess',
       description: 'Word Guess is a new rendition on the game HangMan.',
-      github: 'https://github.com/Kclaster/background_wedding',
-      url: 'https://intense-scrubland-29810.herokuapp.com/',
+      github: 'https://github.com/Kclaster/Word-Guess-Game',
+      url: 'https://kclaster.github.io/Word-Guess-Game/',
       language: 'javascript'
     },
     {

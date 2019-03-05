@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { hideSidebar } from '../../../../actions';
 import profilePic from '../../../../pics/myface.jpg';
-import resume from '../../../../pics/my-resume.pdf';
+import resume from '../../../../pics/resume.docx';
 // import ProgressBar from '../../Progress';
 import './style.css';
 
