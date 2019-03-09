@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "7166aac2db4c173c3b9ab720ac773f90",
-    "url": "/portfolio/static/media/fight.7166aac2.png"
+    "revision": "f524838430a69957ab856adfb639ae6b",
+    "url": "/portfolio/static/media/word.f5248384.png"
   },
   {
-    "revision": "f867b3ac50764bc755d5",
-    "url": "/portfolio/static/css/main.4246f574.chunk.css"
+    "revision": "16886baef98bd5379243",
+    "url": "/portfolio/static/css/main.8e2f7918.chunk.css"
   },
   {
     "revision": "0fad4c0f10d57b530fe4",
     "url": "/portfolio/static/js/runtime~main.0fad4c0f.js"
   },
   {
-    "revision": "0b85d585a4ebee004253",
-    "url": "/portfolio/static/js/2.0b85d585.chunk.js"
+    "revision": "96070d9d3f40ebe1e528",
+    "url": "/portfolio/static/js/2.96070d9d.chunk.js"
   },
   {
     "revision": "6a804d2802eaf5871fc9664e84261b83",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Diary.03d43748.PNG"
   },
   {
-    "revision": "f867b3ac50764bc755d5",
-    "url": "/portfolio/static/js/main.f867b3ac.chunk.js"
+    "revision": "7166aac2db4c173c3b9ab720ac773f90",
+    "url": "/portfolio/static/media/fight.7166aac2.png"
   },
   {
-    "revision": "f524838430a69957ab856adfb639ae6b",
-    "url": "/portfolio/static/media/word.f5248384.png"
+    "revision": "16886baef98bd5379243",
+    "url": "/portfolio/static/js/main.16886bae.chunk.js"
   },
   {
     "revision": "97cbe4d4040fd80127e266332feace5e",
@@ -46,6 +46,10 @@ self.__precacheManifest = [
   {
     "revision": "f7fc959cbd694684119c8a6d5faf5f5f",
     "url": "/portfolio/static/media/liri.f7fc959c.PNG"
+  },
+  {
+    "revision": "4abcf94c4ac2782151a7bfe2c5d33e97",
+    "url": "/portfolio/static/media/bamazon.4abcf94c.PNG"
   },
   {
     "revision": "c40140880c6a655ace54b053a3db5feb",
@@ -64,7 +68,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/resume.a0f13665.docx"
   },
   {
-    "revision": "c9cdfadb2d7889fde380be61e3490537",
+    "revision": "880a916c884192b225c19ac1ca55cbb2",
     "url": "/portfolio/index.html"
   }
 ];
