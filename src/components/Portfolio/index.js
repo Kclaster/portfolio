@@ -14,7 +14,7 @@ const Portfolio = () => {
           title="JavaScript Apps"
           list={javascriptProjects}
         />
-        <MiniScroller start="0" title="NodeJS Apps" list={nodeProjects} />
+        <MiniScroller start="1" title="NodeJS Apps" list={nodeProjects} />
       </div>
     </div>
   );

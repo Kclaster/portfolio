@@ -7,6 +7,8 @@ import javascriptsmall1 from '../../../pics/fight.png';
 import javascriptsmall2 from '../../../pics/word.png';
 import javascriptsmall3 from '../../../pics/cinimania.png';
 import nodesmall1 from '../../../pics/liri.PNG';
+import nodesmall2 from '../../../pics/bamazon.PNG';
+import nodesmall3 from '../../../pics/friendFinder.PNG';
 import './style.css';
 
 const Snippet = props => {
@@ -21,7 +23,7 @@ const Snippet = props => {
     javascriptsmall3
   ];
 
-  const nodeImage = [nodesmall1];
+  const nodeImage = [nodesmall1, nodesmall2, nodesmall3];
 
   if (language === 'javascript') {
     picture = javascriptImage[id];
@@ -43,9 +45,11 @@ const Snippet = props => {
           <a className="snippet-button 1" href={github}>
             Visit GitHub
           </a>
-          <a className="snippet-button 2" href={url}>
-            Visit App
-          </a>
+          {url ? (
+            <a className="snippet-button 2" href={url}>
+              Visit App
+            </a>
+          ) : null}
         </div>
       </div>
     </div>

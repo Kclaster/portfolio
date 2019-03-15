@@ -78,6 +78,23 @@ export const nodeProjects = {
         "Liri is a small node app that get's specific data from 3 api's upon command.",
       github: 'https://github.com/Kclaster/liri-node-app',
       language: 'node'
+    },
+    {
+      id: 1,
+      name: 'Bamazon',
+      description:
+        'Liri is a small node and MySQL app that simulates purchasing products in a storefront.',
+      github: 'https://github.com/Kclaster/bamazon',
+      language: 'node'
+    },
+    {
+      id: 2,
+      name: 'Friend Finder',
+      description:
+        'Friend Finder is a small fullstack app that allows the user to find their match based on a survey.',
+      github: 'https://github.com/Kclaster/friendFinder',
+      url: 'https://obscure-depths-67736.herokuapp.com/',
+      language: 'node'
     }
   ]
 };
