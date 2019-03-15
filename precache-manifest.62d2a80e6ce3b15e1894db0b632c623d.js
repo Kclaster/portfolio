@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/word.f5248384.png"
   },
   {
-    "revision": "16886baef98bd5379243",
+    "revision": "ac70b415e8b75b410e68",
     "url": "/portfolio/static/css/main.8e2f7918.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/runtime~main.0fad4c0f.js"
   },
   {
-    "revision": "96070d9d3f40ebe1e528",
-    "url": "/portfolio/static/js/2.96070d9d.chunk.js"
+    "revision": "8d84182bc5564ab75611",
+    "url": "/portfolio/static/js/2.8d84182b.chunk.js"
   },
   {
     "revision": "6a804d2802eaf5871fc9664e84261b83",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fight.7166aac2.png"
   },
   {
-    "revision": "16886baef98bd5379243",
-    "url": "/portfolio/static/js/main.16886bae.chunk.js"
+    "revision": "ac70b415e8b75b410e68",
+    "url": "/portfolio/static/js/main.ac70b415.chunk.js"
   },
   {
     "revision": "97cbe4d4040fd80127e266332feace5e",
@@ -50,6 +50,10 @@ self.__precacheManifest = [
   {
     "revision": "4abcf94c4ac2782151a7bfe2c5d33e97",
     "url": "/portfolio/static/media/bamazon.4abcf94c.PNG"
+  },
+  {
+    "revision": "b1c5598b03f52d193b5aea33b079a1ac",
+    "url": "/portfolio/static/media/friendFinder.b1c5598b.PNG"
   },
   {
     "revision": "c40140880c6a655ace54b053a3db5feb",
@@ -68,7 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/resume.a0f13665.docx"
   },
   {
-    "revision": "880a916c884192b225c19ac1ca55cbb2",
+    "revision": "ee5a7d3dbe45661b21b88e04808bcac3",
     "url": "/portfolio/index.html"
   }
 ];
