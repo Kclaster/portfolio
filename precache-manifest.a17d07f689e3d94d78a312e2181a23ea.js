@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "f524838430a69957ab856adfb639ae6b",
-    "url": "/portfolio/static/media/word.f5248384.png"
+    "revision": "97cbe4d4040fd80127e266332feace5e",
+    "url": "/portfolio/static/media/cinimania.97cbe4d4.png"
   },
   {
-    "revision": "45e302b3a133c8966e2a",
-    "url": "/portfolio/static/css/main.8e2f7918.chunk.css"
+    "revision": "39460d441da8463c9323",
+    "url": "/portfolio/static/css/main.4d75efb1.chunk.css"
   },
   {
     "revision": "0fad4c0f10d57b530fe4",
     "url": "/portfolio/static/js/runtime~main.0fad4c0f.js"
   },
   {
-    "revision": "8d84182bc5564ab75611",
-    "url": "/portfolio/static/js/2.8d84182b.chunk.js"
+    "revision": "46285d12bd5a926cb794",
+    "url": "/portfolio/static/js/2.46285d12.chunk.js"
   },
   {
     "revision": "6a804d2802eaf5871fc9664e84261b83",
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fight.7166aac2.png"
   },
   {
-    "revision": "45e302b3a133c8966e2a",
-    "url": "/portfolio/static/js/main.45e302b3.chunk.js"
+    "revision": "f524838430a69957ab856adfb639ae6b",
+    "url": "/portfolio/static/media/word.f5248384.png"
   },
   {
-    "revision": "97cbe4d4040fd80127e266332feace5e",
-    "url": "/portfolio/static/media/cinimania.97cbe4d4.png"
+    "revision": "39460d441da8463c9323",
+    "url": "/portfolio/static/js/main.39460d44.chunk.js"
   },
   {
     "revision": "f7fc959cbd694684119c8a6d5faf5f5f",
@@ -54,6 +54,10 @@ self.__precacheManifest = [
   {
     "revision": "b1c5598b03f52d193b5aea33b079a1ac",
     "url": "/portfolio/static/media/friendFinder.b1c5598b.PNG"
+  },
+  {
+    "revision": "aa1c09a2dd7f1cf0b8c71add4571a79c",
+    "url": "/portfolio/static/media/burger.aa1c09a2.PNG"
   },
   {
     "revision": "c40140880c6a655ace54b053a3db5feb",
@@ -72,7 +76,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/resume.4cf29de3.docx"
   },
   {
-    "revision": "cd4ab43bba00e400667d4442917c108b",
+    "revision": "d0db19c25972c247b325b45bd9cb440d",
     "url": "/portfolio/index.html"
   }
 ];
